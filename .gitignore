@@ -1,0 +1,24 @@
+# Ignore .env file
+.env
+
+#Ignore Virtual Env
+venv_heartmate/
+
+# Ignore all .pdf files
+*.pdf
+
+# Ignore other common OS and environment files
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
